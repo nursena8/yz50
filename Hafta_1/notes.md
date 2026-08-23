@@ -13,7 +13,6 @@
 - Bir sinir ağı katmanlara dizilmiş nöronlardan oluşur input layer, hidden layer, output layer. 
 - Bir nöronun ham aktivasyondan önceki çıktısı `z = w*x+b` sınırsız bir sayıdır belirli bir aralığa sıkışmaz.
 - Bu `z` değeri bir aktivasyon fonksiyonundan geçirilerek belirli bir aralığa sıkıştırılır.
-- Sigmoid aktivasyonundan geçen bir değer 0 ile 1 arasına sıkışır bu sadece sigmoide özel bir davranıştır.
 - Her nöron kendi ağırlıklarına ve kendi bias ine  sahiptir.
 - Bir nöronun aldığı girdi sayısı o nöronun sahip olduğu ağırlık sayısına eşittir.
 - Bir sonraki katmandaki her nöron bir önceki katmandaki tüm  nöronlardan girdi alır.
